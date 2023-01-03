@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Signika:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/logo.PNG" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+    <title>Meet Mia | Naslovna</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <a href="index.html"><img src="images/logo.png" alt="Meet Mia" /></a>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item nav__item--first">
+            <a class="nav__link" href="index.html">Naslovna</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__submenu--button" href="kategorije.html">
+              Proizvodi <i class="fas fa-angle-down nav-arrow"></i>
+            </a>
+            <ul class="nav__submenu">
+              <li class="nav__submenu--item nav__proizvodi">
+                <a class="nav__proizvodi--button" href="slatko.html">
+                  Slatko <i class="fas fa-angle-right nav-arrow"></i>
+                </a>
+                <ul class="nav__proizvodi--menu">
+                  <li class="nav__proizvodi--item">Torte</li>
+                  <li class="nav__proizvodi--item">Kolači</li>
+                  <li class="nav__proizvodi--item">Ostalo</li>
+                </ul>
+              </li>
+              <li class="nav__submenu--item nav__proizvodi">
+                <a class="nav__proizvodi--button" href="slatko.html">
+                  Konkretno <i class="fas fa-angle-right nav-arrow"></i>
+                </a>
+                <ul class="nav__proizvodi--menu">
+                  <li class="nav__proizvodi--item">Sendviči</li>
+                  <li class="nav__proizvodi--item">Salate</li>
+                </ul>
+              </li>
+              <li class="nav__submenu--item"><a href="slatko.html">Piće</a></li>
+            </ul>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="index.html">O nama</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__submenu--button" href="index.html">
+              Blog <i class="fas fa-angle-down nav-arrow"></i>
+            </a>
+            <ul class="nav__submenu">
+              <li class="nav__submenu--item">
+                <a href="index.html">Recepti</a>
+              </li>
+              <li class="nav__submenu--item">
+                <a href="index.html">Recenzije</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="kontakt.html">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+    </header>
+
+    <!-- Slider -->
+    <section class="slider">
+      <div class="slide active">
+        <picture class="intro__image1">
+          <source
+            media="(min-width: 836px)"
+            srcset="images/naslovna/naslovna03.jpg"
+          />
+          <source
+            media="(min-width: 450px) and (max-width: 835px)"
+            srcset="images/naslovna/naslovna03-tablet.jpg"
+          />
+          <source
+            media="(max-width: 449px)"
+            srcset="images/naslovna/naslovna03-phone.jpg"
+          />
+          <img src="images/naslovna/naslovna03.jpg" alt="" />
+        </picture>
+        <!-- <img src="images/naslovna/naslovna03.jpg" alt="Slider Photo 1" /> -->
+        <div class="info">
+          <h1>Dobrodošli!</h1>
+          <p>
+            U samom centru glavnoga grada nalazi se naša slastičarna.<br />Navratite,
+            nemate što izgubiti, a imate mnogo toga za dobiti!
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <picture class="intro__image1">
+          <source
+            media="(min-width: 836px)"
+            srcset="images/naslovna/naslovna04.jpg"
+          />
+          <source
+            media="(min-width: 450px) and (max-width: 835px)"
+            srcset="images/naslovna/naslovna04-tablet.jpg"
+          />
+          <source
+            media="(max-width: 449px)"
+            srcset="images/naslovna/naslovna04-phone.jpg"
+          />
+          <img src="images/naslovna/naslovna04.jpg" alt="" />
+        </picture>
+        <!-- <img src="images/naslovna/naslovna04.jpg" alt="Slider Photo 2" /> -->
+        <div class="info">
+          <h1>Meet Mia slastičarna</h1>
+          <p>
+            Domaća atmosfera, slastice koje god poželite... Jedina opasnost je
+            da kad jednom dođete, više nećete htjeti otići. <br />Nestrpljivo
+            Vas čekamo!
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <picture class="intro__image1">
+          <source
+            media="(min-width: 836px)"
+            srcset="images/naslovna/popular_product_1.jpg"
+          />
+          <source
+            media="(min-width: 450px) and (max-width: 835px)"
+            srcset="images/naslovna/naslovna05-tablet.jpg"
+          />
+          <source
+            media="(max-width: 449px)"
+            srcset="images/naslovna/naslovna05-phone.jpg"
+          />
+          <img src="images/naslovna/popular_product_1.jpg" alt="" />
+        </picture>
+        <!-- <img src="images/naslovna/popular_product_1.jpg" alt="Slider Photo 3" /> -->
+        <div class="info">
+          <h1>Najbolje slastice na jednom mjestu</h1>
+          <p>
+            Torte, kolači, sladoled... Ili možda sendviči, salate, domaći
+            sokovi... <br />Vi recite! Mi smo sigurni da imamo!
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <picture class="intro__image1">
+          <source
+            media="(min-width: 836px)"
+            srcset="images/naslovna/naslovna02.jpg"
+          />
+          <source
+            media="(min-width: 450px) and (max-width: 835px)"
+            srcset="images/naslovna/naslovna02-tablet.jpg"
+          />
+          <source
+            media="(max-width: 449px)"
+            srcset="images/naslovna/naslovna02-phone.jpg"
+          />
+          <img src="images/naslovna/naslovna02.jpg" alt="" />
+        </picture>
+        <!-- <img src="images/naslovna/naslovna02.jpg" alt="Slider Photo 4" /> -->
+        <div class="info">
+          <h1>Upoznajmo se bolje...</h1>
+          <p>
+            Naš tim sastoji se od vrhunskih stručnjaka u svakome segmentu.<br />
+            Ako Vas zanima više o nama, upoznajmo se bolje!
+          </p>
+        </div>
+      </div>
+
+      <div class="navigation">
+        <span class="prev-btn"><i class="fas fa-long-arrow-alt-left"></i></span>
+        <span class="next-btn"
+          ><i class="fas fa-long-arrow-alt-right"></i
+        ></span>
+      </div>
+
+      <div class="navigation-visibility">
+        <div class="slide-icon active"></div>
+        <div class="slide-icon"></div>
+        <div class="slide-icon"></div>
+        <div class="slide-icon"></div>
+      </div>
+
+      <div class="btnn">
+        <a href="kategorije.html" class="btn btn__slider">Naruči</a>
+      </div>
+    </section>
+
+    <!-- Introduction -->
+    <section class="intro">
+      <div class="intro__info--first">
+        <h1>Naruči tortu za van</h1>
+        <p>
+          Narudžba torte nikada nije bila lakša. U svega par klikova Vaša torta
+          je spremna.
+        </p>
+        <a href="slatko.html" class="btn intro__btn">Naruči tortu</a>
+      </div>
+      <div class="intro__img--first">
+        <picture class="intro__image1">
+          <source
+            media="(min-width: 836px)"
+            srcset="images/naslovna/cake1.jpg"
+          />
+          <source
+            media="(min-width: 450px) and (max-width: 835px)"
+            srcset="images/naslovna/cake1-tablet.jpg"
+          />
+          <source
+            media="(max-width: 449px)"
+            srcset="images/naslovna/cake1-phone.jpg"
+          />
+          <img src="images/naslovna/cake1.jpg" alt="" />
+        </picture>
+
+        <!-- <img src="images/naslovna/cake1.jpg" class="intro__image1" alt="" /> -->
+      </div>
+      <div class="intro__img--second">
+        <picture class="intro__image1">
+          <source media="(min-width: 836px)" srcset="images/naslovna/mia.JPG" />
+          <source
+            media="(min-width: 450px) and (max-width: 835px)"
+            srcset="images/naslovna/mia-tablet.jpg"
+          />
+          <source
+            media="(max-width: 449px)"
+            srcset="images/naslovna/mia-phone.jpg"
+          />
+          <img src="images/naslovna/mia.JPG" alt="" />
+        </picture>
+
+        <!-- <img src="images/naslovna/mia.JPG" class="intro__image2" alt="" /> -->
+      </div>
+      <div class="intro__info--second">
+        <h1>Upoznaj naš tim</h1>
+        <p>
+          Moje ime je Mia, a iza sebe imam najbolji tim na svijetu. Upoznajmo
+          se!
+        </p>
+        <a class="btn intro__btn" href="index.html">Pogledaj više</a>
+      </div>
+    </section>
+
+    <!-- Popularni Proizvodi -->
+    <section class="main-container popular-products">
+      <div class="main-title popular-products__title">
+        <h1>Popularni Proizvodi</h1>
+      </div>
+
+      <div class="sub-container popular-products__container">
+        <div class="sub-container--item popular-products__container--item">
+          <picture>
+            <source
+              media="(min-width: 836px)"
+              srcset="images/naslovna/naslovna01.jpg"
+            />
+            <source
+              media="(min-width: 450px) and (max-width: 835px)"
+              srcset="images/naslovna/naslovna01-tablet.jpg"
+            />
+            <source
+              media="(max-width: 449px)"
+              srcset="images/naslovna/naslovna01-phone.jpg"
+            />
+            <a href="proizvod.html">
+              <img src="images/naslovna/naslovna01.jpg" alt="" />
+            </a>
+          </picture>
+          <!-- <img src="images/naslovna/naslovna01.jpg" alt="Čokoladna Torta" /> -->
+          <h2>Čokoladne Torte</h2>
+        </div>
+        <div class="sub-container--item popular-products__container--item">
+          <picture>
+            <source
+              media="(min-width: 836px)"
+              srcset="images/naslovna/popular_product_2.jpg"
+            />
+            <source
+              media="(min-width: 450px) and (max-width: 835px)"
+              srcset="images/naslovna/popular_product_2-tablet.jpg"
+            />
+            <source
+              media="(max-width: 449px)"
+              srcset="images/naslovna/popular_product_2-phone.jpg"
+            />
+            <a href="proizvod.html">
+              <img src="images/naslovna/popular_product_2.jpg" alt="" />
+            </a>
+          </picture>
+          <!-- <img
+            src="images/naslovna/popular_product_2.jpg"
+            alt="Desertni Muffini"
+          /> -->
+          <h2>Desertni Muffini</h2>
+        </div>
+        <div class="sub-container--item popular-products__container--item">
+          <picture>
+            <source
+              media="(min-width: 836px)"
+              srcset="images/naslovna/popular_product_3.jpg"
+            />
+            <source
+              media="(min-width: 450px) and (max-width: 835px)"
+              srcset="images/naslovna/popular_product_3-tablet.jpg"
+            />
+            <source
+              media="(max-width: 449px)"
+              srcset="images/naslovna/popular_product_3-phone.jpg"
+            />
+            <a href="proizvod.html">
+              <img src="images/naslovna/popular_product_3.jpg" alt="" />
+            </a>
+          </picture>
+          <!-- <img src="images/naslovna/popular_product_3.jpg" alt="Doručak Box" /> -->
+          <h2>Doručak Box</h2>
+        </div>
+        <div class="sub-container--item popular-products__container--item">
+          <picture>
+            <source
+              media="(min-width: 836px)"
+              srcset="images/naslovna/popular_product_4.jpg"
+            />
+            <source
+              media="(min-width: 450px) and (max-width: 835px)"
+              srcset="images/naslovna/popular_product_4-tablet.jpg"
+            />
+            <source
+              media="(max-width: 449px)"
+              srcset="images/naslovna/popular_product_4-phone.jpg"
+            />
+            <a href="proizvod.html">
+              <img src="images/naslovna/popular_product_4.jpg" alt="" />
+            </a>
+          </picture>
+          <!-- <img
+            src="images/naslovna/popular_product_4.jpg"
+            alt="Svadbena Torta"
+          /> -->
+          <h2>Svadbene Torte</h2>
+        </div>
+        <div class="sub-container--item popular-products__container--item">
+          <picture>
+            <source
+              media="(min-width: 836px)"
+              srcset="images/naslovna/popular_product_5.JPG"
+            />
+            <source
+              media="(min-width: 450px) and (max-width: 835px)"
+              srcset="images/naslovna/popular_product_5-tablet.jpg"
+            />
+            <source
+              media="(max-width: 449px)"
+              srcset="images/naslovna/popular_product_5-phone.jpg"
+            />
+            <a href="proizvod.html">
+              <img src="images/naslovna/popular_product_5.JPG" alt="" />
+            </a>
+          </picture>
+          <!-- <img src="images/naslovna/popular_product_5.JPG" alt="Dječja Torta" /> -->
+          <h2>Dječje Torte</h2>
+        </div>
+        <div class="sub-container--item popular-products__container--item">
+          <picture>
+            <source
+              media="(min-width: 836px)"
+              srcset="images/naslovna/popular_product_6.jpg"
+            />
+            <source
+              media="(min-width: 450px) and (max-width: 835px)"
+              srcset="images/naslovna/popular_product_6-tablet.jpg"
+            />
+            <source
+              media="(max-width: 449px)"
+              srcset="images/naslovna/popular_product_6-phone.jpg"
+            />
+            <a href="proizvod.html">
+              <img src="images/naslovna/popular_product_6.jpg" alt="" />
+            </a>
+          </picture>
+          <!-- <img
+            src="images/naslovna/popular_product_6.jpg"
+            alt="Božićni Kolači"
+          /> -->
+          <h2>Božićni Kolači</h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- Napravi Sam -->
+    <section class="main-container napravi-sam">
+      <div class="main-title napravi-sam__title">
+        <h1>Napravi Sam...</h1>
+      </div>
+
+      <div class="sub-container napravi-sam__container">
+        <div class="sub-container--item napravi-sam__container--item">
+          <picture>
+            <source
+              media="(min-width: 836px)"
+              srcset="images/naslovna/napravi_sam_1.jpg"
+            />
+            <source
+              media="(min-width: 450px) and (max-width: 835px)"
+              srcset="images/naslovna/napravi_sam_1-tablet.jpg"
+            />
+            <source
+              media="(max-width: 449px)"
+              srcset="images/naslovna/napravi_sam_1-phone.jpg"
+            />
+            <img src="images/naslovna/napravi_sam_1.jpg" alt="" />
+          </picture>
+          <!-- <img src="images/naslovna/napravi_sam_1.jpg" alt="Blog Objava 1" /> -->
+          <h2>Najbolji recepti naših kuhara</h2>
+          <p>
+            Zanima te koliku točnu mjericu šećera uzeti? Ovdje ćeš pronaći sve
+            informacije!
+          </p>
+          <button class="btn">Saznaj više</button>
+        </div>
+        <div class="sub-container--item napravi-sam__container--item">
+          <picture>
+            <source
+              media="(min-width: 836px)"
+              srcset="images/naslovna/napravi_sam_2.jpg"
+            />
+            <source
+              media="(min-width: 450px) and (max-width: 835px)"
+              srcset="images/naslovna/napravi_sam_2-tablet.jpg"
+            />
+            <source
+              media="(max-width: 449px)"
+              srcset="images/naslovna/napravi_sam_2-phone.jpg"
+            />
+            <img src="images/naslovna/napravi_sam_2.jpg" alt="" />
+          </picture>
+          <!-- <img src="images/naslovna/napravi_sam_2.jpg" alt="Blog Objava 1" /> -->
+          <h2>Jedna slastica za svaki dan</h2>
+          <p>
+            Obožavaš kolače, ali misliš da previše vremena oduzima njihova
+            priprema? Mi imamo rješenje!
+          </p>
+          <button class="btn">Saznaj više</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Zadovoljni Klijenti -->
+    <section class="zadovoljni-klijenti">
+      <div class="zadovoljni-klijenti__image">
+        <picture>
+          <source
+            media="(min-width: 836px)"
+            srcset="images/naslovna/zadovoljni_klijenti_1.jpg"
+          />
+          <source
+            media="(min-width: 450px) and (max-width: 835px)"
+            srcset="images/naslovna/zadovoljni_klijenti_1-tablet.jpg"
+          />
+          <source
+            media="(max-width: 449px)"
+            srcset="images/naslovna/zadovoljni_klijenti_1-phone.jpg"
+          />
+          <img src="images/naslovna/zadovoljni_klijenti_1-tablet.jpg" alt="" />
+        </picture>
+        <!-- <img src="images/naslovna/zadovoljni_klijenti_1.jpg" alt="" /> -->
+      </div>
+
+      <div class="zadovoljni-klijenti__container">
+        <h2>Zadovoljni Klijenti</h2>
+        <p id="zadovoljni-klijenti__container--review">
+          “Kada je vrijeme za kolače, ovo je definitivno prvo mjesto u koje se
+          spremam doći!”
+        </p>
+        <p id="zadovoljni-klijenti__container--author">Pero Perić</p>
+        <div class="zadovoljni-klijenti__container--scroll">
+          <input type="radio" name="klijenti" value="klijent1" checked />
+          <input type="radio" name="klijenti" value="klijent2" />
+          <input type="radio" name="klijenti" value="klijent3" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Instagram -->
+    <section class="instagram">
+      <h2>Instagram</h2>
+      <div class="instagram-naslovna__container">
+        <picture>
+          <source
+            media="(min-width: 836px)"
+            srcset="images/naslovna/popular_product_2.jpg"
+          />
+          <source
+            media="(min-width: 450px) and (max-width: 835px)"
+            srcset="images/naslovna/popular_product_2-tablet.jpg"
+          />
+          <source
+            media="(max-width: 449px)"
+            srcset="images/naslovna/popular_product_2-phone.jpg"
+          />
+          <img src="images/naslovna/popular_product_2.jpg" alt="" />
+        </picture>
+
+        <picture>
+          <source
+            media="(min-width: 836px)"
+            srcset="images/naslovna/popular_product_3.jpg"
+          />
+          <source
+            media="(min-width: 450px) and (max-width: 835px)"
+            srcset="images/naslovna/popular_product_3-tablet.jpg"
+          />
+          <source
+            media="(max-width: 449px)"
+            srcset="images/naslovna/popular_product_3-phone.jpg"
+          />
+          <img src="images/naslovna/popular_product_3.jpg" alt="" />
+        </picture>
+
+        <picture>
+          <source
+            media="(min-width: 836px)"
+            srcset="images/naslovna/popular_product_6.jpg"
+          />
+          <source
+            media="(min-width: 450px) and (max-width: 835px)"
+            srcset="images/naslovna/popular_product_6-tablet.jpg"
+          />
+          <source
+            media="(max-width: 449px)"
+            srcset="images/naslovna/popular_product_6-phone.jpg"
+          />
+          <img src="images/naslovna/popular_product_6.jpg" alt="" />
+        </picture>
+
+        <picture>
+          <source
+            media="(min-width: 836px)"
+            srcset="images/naslovna/popular_product_1.jpg"
+          />
+          <source
+            media="(min-width: 450px) and (max-width: 835px)"
+            srcset="images/naslovna/instagram1-tablet.jpg"
+          />
+          <source
+            media="(max-width: 449px)"
+            srcset="images/naslovna/instagram1-phone.jpg"
+          />
+          <img src="images/naslovna/popular_product_1.jpg" alt="" />
+        </picture>
+
+        <img src="images/naslovna/popular_product_2.jpg" alt="" />
+        <img src="images/naslovna/popular_product_3.jpg" alt="" />
+        <img src="images/naslovna/popular_product_6.jpg" alt="" />
+        <img src="images/naslovna/popular_product_1.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-info">
+        <div class="footer-info__logo">
+          <img src="images/logo.png" alt="Meet Mia logo" />
+        </div>
+        <div class="footer-info__brand">
+          <h2>Meet Mia</h2>
+          <a href="index.html">Naslovna</a>
+          <a href="kategorije.html">Proizvodi</a>
+          <a href="#">O nama</a>
+          <a href="#">Blog</a>
+          <a href="#">Profil</a>
+          <a href="#">Košarica</a>
+        </div>
+        <div class="footer-info__terms">
+          <h2>Uvjeti i privatnost</h2>
+          <a href="#">Uvjeti korištenja</a>
+          <a href="#">Privatnost</a>
+          <a href="#">Karijere</a>
+          <a href="#">Dostava</a>
+        </div>
+        <div class="footer-info__contact">
+          <h2>Kontakt</h2>
+          <a href="kontakt.html">meetmia@mail.com</a>
+          <a href="kontakt.html">01 / 2816 451</a>
+          <a href="kontakt.html">Heinzelova 33, 10000 Zagreb</a>
+          <div class="footer-info__contact--socials">
+            <a href="kontakt.html"><i class="fab fa-instagram"></i></a>
+            <a href="kontakt.html"><i class="fab fa-facebook-f"></i></a>
+            <a href="kontakt.html"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="footer-info__contact--payments">
+            <a href="kontakt.html"><i class="fab fa-cc-visa"></i></a>
+            <a href="kontakt.html"><i class="fab fa-cc-mastercard"></i></a>
+            <a href="kontakt.html"><i class="fab fa-cc-diners-club"></i></a>
+            <a href="kontakt.html"><i class="fab fa-cc-amex"></i></a>
+            <a href="kontakt.html"><i class="fab fa-cc-paypal"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-copyright">
+        <p>Meet Mia | &copy; Copyright. All right reserved.</p>
+        <p>site by <em>Lux Dule</em></p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
