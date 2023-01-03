@@ -23,7 +23,7 @@ Project Screenshots:
 ![space04](https://user-images.githubusercontent.com/46372998/178018469-9f0a9313-0da0-47b7-b26f-ad4beea1821d.png)
 
 
-## GPT3 AI WEBSITE
+## GPT3 AI
 
 Responsive design for the GPT3 OpenAI website.
 
@@ -34,6 +34,19 @@ Responsive design for the GPT3 OpenAI website.
 Project Screenshots:
 
 ![gpt3](https://user-images.githubusercontent.com/46372998/178019413-a9498868-9c6e-421b-9a2e-9b6819fb7f63.png)
+
+
+## Fylo | Secure Files
+
+Responsive design for Fylo Landing Page - file security website.
+
+> [See website](https://fylo-files.web.app/)
+
+### Stack used: HTML, CSS, React
+
+Project Screenshots:
+
+![fylo](https://user-images.githubusercontent.com/46372998/178041579-7b6ae292-fea1-42e2-a592-a7c3cccf690c.png)
 
 
 ## Alternative Portfolio Design
