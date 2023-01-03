@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: var(--clr-bg-footer);
+  box-shadow: inset 0 0 5px grey;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--clr-cta-cyan);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--clr-cta-blue);
+}
+
+:root {
+  --ff-primary: "Open Sans", sans-serif;
+  --ff-secondary: "Raleway", sans-serif;
+
+  --fs-h1: 2.25rem;
+  --fs-h2: 1.75rem;
+  --fs-body: 0.85rem;
+
+  --fw-400: 400;
+  --fw-700: 700;
+
+  --clr-bg-primary: hsl(218, 28%, 13%);
+  --clr-bg-secondary: hsl(217, 28%, 15%);
+  --clr-bg-footer: hsl(216, 53%, 9%);
+  --clr-bg-testimonials: hsl(219, 30%, 18%);
+
+  --clr-cta-cyan: hsl(176, 68%, 64%);
+  --clr-cta-blue: hsl(198, 60%, 50%);
+  --clr-error-red: hsl(0, 100%, 63%);
+
+  --clr-white: hsl(0, 0%, 100%);
+}
+
+@media screen and (max-width: 600px) {
+  :root {
+    --fs-h1: 1.75rem;
+    --fs-h2: 1.25rem;
+    --fs-body: 0.75rem;
+
+    --fw-400: 300;
+    --fw-700: 600;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-body);
+  font-weight: var(--fw-400);
+  color: var(--clr-white);
+  background: var(--clr-bg-primary);
+  line-height: 1.6;
+}
+
+h1 {
+  font-family: var(--ff-secondary);
+  font-size: var(--fs-h1);
+  font-weight: var(--fw-700);
+}
+
+h2 {
+  font-family: var(--ff-secondary);
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-700);
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  padding: 0.5rem 4.5rem;
+  background: linear-gradient(
+    120deg,
+    rgba(101, 226, 217, 1) 0%,
+    rgba(51, 158, 204, 1) 33%
+  );
+  color: var(--clr-white);
+  font-weight: var(--fw-400);
+  font-size: 1.05rem;
+  border: 0;
+  outline: 0;
+  border-radius: 1rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: background 500ms ease;
+}
+
+button:hover {
+  background: var(--clr-cta-cyan);
+}
+
+.scale-up-anim {
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-anim 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes scale-up-anim {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes scale-up-anim {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}

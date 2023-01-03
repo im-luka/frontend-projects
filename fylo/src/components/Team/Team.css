@@ -1,0 +1,10 @@
+.fylo__team {
+  width: 90%;
+  margin: 7.5rem auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+}

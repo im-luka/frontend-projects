@@ -1,0 +1,58 @@
+.fylo__cover {
+  display: flex;
+  justify-content: center;
+  padding-block: 4rem;
+  background: var(--clr-bg-secondary);
+  background-image: url("../../assets/bg-curvy-desktop.svg");
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
+
+.fylo__cover_div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.fylo__cover_div-image {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-inline: auto;
+}
+
+.fylo__cover_div-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  padding-inline: 2rem;
+  text-align: center;
+}
+
+.fylo__cover_div-info p {
+  max-width: 85%;
+  line-height: 1.75;
+}
+
+.fylo__cover_div-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 880px) {
+  .fylo__cover_div {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .fylo__cover_div {
+    width: 100%;
+  }
+}
