@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Signika:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/logo.PNG" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+    <title>Meet Mia | Proizvod</title>
+  </head>
+</head>
+
+<body>  
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <a href="index.html"><img src="images/logo.png" alt="Meet Mia" /></a>
+    </div>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item nav__item--first">
+          <a class="nav__link" href="index.html">Naslovna</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link nav__submenu--button" href="kategorije.html">
+            Proizvodi <i class="fas fa-angle-down nav-arrow"></i>
+          </a>
+          <ul class="nav__submenu">
+            <li class="nav__submenu--item nav__proizvodi">
+              <a class="nav__proizvodi--button" href="slatko.html">
+                Slatko <i class="fas fa-angle-right nav-arrow"></i>
+              </a>
+              <ul class="nav__proizvodi--menu">
+                <li class="nav__proizvodi--item">Torte</li>
+                <li class="nav__proizvodi--item">Kolači</li>
+                <li class="nav__proizvodi--item">Ostalo</li>
+              </ul>
+            </li>
+            <li class="nav__submenu--item nav__proizvodi">
+              <a class="nav__proizvodi--button" href="slatko.html">
+                Konkretno <i class="fas fa-angle-right nav-arrow"></i>
+              </a>
+              <ul class="nav__proizvodi--menu">
+                <li class="nav__proizvodi--item">Sendviči</li>
+                <li class="nav__proizvodi--item">Salate</li>
+              </ul>
+            </li>
+            <li class="nav__submenu--item"><a href="slatko.html">Piće</a></li>
+          </ul>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="index.html">O nama</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link nav__submenu--button" href="index.html">
+            Blog <i class="fas fa-angle-down nav-arrow"></i>
+          </a>
+          <ul class="nav__submenu">
+            <li class="nav__submenu--item">
+              <a href="index.html">Recepti</a>
+            </li>
+            <li class="nav__submenu--item">
+              <a href="index.html">Recenzije</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="kontakt.html">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+  </header>
+
+  <!-- Proizvod -->
+  <section class="proizvod">
+    <div class="proizvod__img">
+      <img src="images/kategorije/slatko_cover.jpg" alt="">
+    </div>
+
+    <div class="proizvod__info">
+      <!-- <div class="proizvod__info--nav">
+        <span><i class="fas fa-long-arrow-alt-left"></i></span>
+        <p>Svi proizvodi </p>
+        <span><i class="fas fa-long-arrow-alt-right"></i></span>
+      </div> -->
+
+      <div class="proizvod__info--kat">
+        <button class="btn">Dostupno</button>
+        <span>Kategorija: Torte</span>
+      </div>
+
+      <div class="proizvod__info--title">
+        <h1>Čokoladna Torta &quot;Vu Le Vu&quot;</h1>
+      </div>
+
+      <div class="proizvod__info--price">
+        <h2>Cijena: 250,00 kn</h2>
+      </div>
+
+      <div class="proizvod__info--img">
+        <img src="images/kategorije/slatko_cover.jpg" alt="">
+      </div>
+
+      <div class="proizvod__info--description">
+        <p>Čokoladna torta francuskog majstora Jacquesa Geroixa pogodna za svaku prigodu.</p>
+      </div>
+
+      <div class="proizvod__info--form">
+        <div class="form1">
+          <label for="vel">Veličina : </label>
+          <input type="text" id="vel">
+        </div>
+
+        <div class="form2">
+          <label for="dod">Dodaci : </label>
+          <input type="text" id="dod">
+        </div>
+      </div>
+
+      <div class="proizvod__info--total">
+        <p>Ukupan iznos : 500,00 kn</p>
+      </div>
+
+      <div class="proizvod__info--cart">
+        <div class="cart1">
+          <span><i class="fas fa-minus"></i></span>
+          <input type="text" value="2">
+          <span><i class="fas fa-plus"></i></span>
+        </div>
+
+        <button class="btn"><span><i class="fas fa-cart-plus"></i></span> Dodaj u košaricu</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Preporuka -->
+  <h2 class="preporuka-title">Moglo bi Vas zanimati</h2>
+  <div class="slatko-container preporuka-container">
+    <div class="slatko-container__item preporuka-container__item">
+      <a href="#" class="slatko-container__item--link preporuka-container__item--link">
+        <img
+          src="images/kategorije/slatko_popular_1.jpg"
+          alt=""
+          class="slatko-container__item--img preporuka-container__item--img"
+        />
+      </a>
+      <p>Naziv : Rumena torta</p>
+      <p>Cijena : 70,00 kn</p>
+      <button class="btn">Dodaj u košaricu</button>
+    </div>
+
+    <div class="slatko-container__item preporuka-container__item">
+      <a href="#" class="slatko-container__item--link preporuka-container__item--link">
+        <img
+          src="images/slatko/naslovna02.jpg"
+          alt=""
+          class="slatko-container__item--img preporuka-container__item--img"
+        />
+      </a>
+      <p>Naziv : Voćni Prah</p>
+      <p>Cijena : 150,00 kn</p>
+      <button class="btn">Dodaj u košaricu</button>
+    </div>
+
+    <div class="slatko-container__item preporuka-container__item">
+      <a href="#" class="slatko-container__item--link preporuka-container__item--link">
+        <img
+          src="images/slatko/cake1.jpg"
+          alt=""
+          class="slatko-container__item--img preporuka-container__item--img"
+        />
+      </a>
+      <p>Naziv : Čokoladni Musseu</p>
+      <p>Cijena : 205,00 kn</p>
+      <button class="btn">Dodaj u košaricu</button>
+    </div>
+
+    <div class="slatko-container__item preporuka-container__item">
+      <a href="#" class="slatko-container__item--link preporuka-container__item--link">
+        <img
+          src="images/slatko/naslovna04.jpg"
+          alt=""
+          class="slatko-container__item--img preporuka-container__item--img"
+        />
+      </a>
+      <p>Naziv : Muffin's Cake</p>
+      <p>Cijena : 105,00 kn</p>
+      <button class="btn">Dodaj u košaricu</button>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-info">
+      <div class="footer-info__logo">
+        <img src="images/logo.png" alt="Meet Mia logo" />
+      </div>
+      <div class="footer-info__brand">
+        <h2>Meet Mia</h2>
+        <a href="index.html">Naslovna</a>
+        <a href="kategorije.html">Proizvodi</a>
+        <a href="#">O nama</a>
+        <a href="#">Blog</a>
+        <a href="#">Profil</a>
+        <a href="#">Košarica</a>
+      </div>
+      <div class="footer-info__terms">
+        <h2>Uvjeti i privatnost</h2>
+        <a href="#">Uvjeti korištenja</a>
+        <a href="#">Privatnost</a>
+        <a href="#">Karijere</a>
+        <a href="#">Dostava</a>
+      </div>
+      <div class="footer-info__contact">
+        <h2>Kontakt</h2>
+        <a href="kontakt.html">meetmia@mail.com</a>
+        <a href="kontakt.html">01 / 2816 451</a>
+        <a href="kontakt.html">Heinzelova 33, 10000 Zagreb</a>
+        <div class="footer-info__contact--socials">
+          <a href="kontakt.html"><i class="fab fa-instagram"></i></a>
+          <a href="kontakt.html"><i class="fab fa-facebook-f"></i></a>
+          <a href="kontakt.html"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="footer-info__contact--payments">
+          <a href="kontakt.html"><i class="fab fa-cc-visa"></i></a>
+          <a href="kontakt.html"><i class="fab fa-cc-mastercard"></i></a>
+          <a href="kontakt.html"><i class="fab fa-cc-diners-club"></i></a>
+          <a href="kontakt.html"><i class="fab fa-cc-amex"></i></a>
+          <a href="kontakt.html"><i class="fab fa-cc-paypal"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright">
+      <p>Meet Mia | &copy; Copyright. All right reserved.</p>
+      <p>site by <em>Lux Dule</em></p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Signika:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/logo.PNG" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+    <title>Meet Mia | Kategorije</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <a href="index.html"><img src="images/logo.png" alt="Meet Mia" /></a>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item nav__item--first">
+            <a class="nav__link" href="index.html">Naslovna</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__submenu--button" href="kategorije.html">
+              Proizvodi <i class="fas fa-angle-down nav-arrow"></i>
+            </a>
+            <ul class="nav__submenu">
+              <li class="nav__submenu--item nav__proizvodi">
+                <a class="nav__proizvodi--button" href="slatko.html">
+                  Slatko <i class="fas fa-angle-right nav-arrow"></i>
+                </a>
+                <ul class="nav__proizvodi--menu">
+                  <li class="nav__proizvodi--item">Torte</li>
+                  <li class="nav__proizvodi--item">Kolači</li>
+                  <li class="nav__proizvodi--item">Ostalo</li>
+                </ul>
+              </li>
+              <li class="nav__submenu--item nav__proizvodi">
+                <a class="nav__proizvodi--button" href="slatko.html">
+                  Konkretno <i class="fas fa-angle-right nav-arrow"></i>
+                </a>
+                <ul class="nav__proizvodi--menu">
+                  <li class="nav__proizvodi--item">Sendviči</li>
+                  <li class="nav__proizvodi--item">Salate</li>
+                </ul>
+              </li>
+              <li class="nav__submenu--item"><a href="slatko.html">Piće</a></li>
+            </ul>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="index.html">O nama</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__submenu--button" href="index.html">
+              Blog <i class="fas fa-angle-down nav-arrow"></i>
+            </a>
+            <ul class="nav__submenu">
+              <li class="nav__submenu--item">
+                <a href="index.html">Recepti</a>
+              </li>
+              <li class="nav__submenu--item">
+                <a href="index.html">Recenzije</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="kontakt.html">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+    </header>
+
+    <!-- Kategorije -->
+    <section class="kategorije-container">
+      <div class="kategorije-container__slatko">
+        <div
+          class="kategorije-container__slatko--img kategorije-container__cover"
+        >
+          <img
+            src="images/kategorije/slatko_cover.jpg"
+            class="kategorije-container__cover--front"
+            alt=""
+          />
+          <div class="kategorije-container__cover--back">
+            <a href="slatko.html" class="btn">Pogledaj sve proizvode</a>
+          </div>
+        </div>
+
+        <div class="kategorije-container__slatko--info">
+          <h1>Ako volite slatko...</h1>
+          <p>
+            Kada Vam se javi potreba za zaslađivanjem, naše mjesto će ispuniti
+            svaku Vašu želju. Od torti, kolača, do raznih slastica poput
+            kroasana, muffina, palačinki... Sigurni smo da ćete ovdje pronaći
+            sve što tražite!
+          </p>
+          <div class="slatko--info__gallery kategorije--info__gallery">
+            <img src="images/kategorije/slatko_popular_1.jpg" alt="" />
+            <img src="images/kategorije/slatko_popular_2.jpg" alt="" />
+            <img src="images/kategorije/slatko_popular_3.jpg" alt="" />
+            <img src="images/kategorije/slatko_popular_4.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="kategorije-container__slano">
+        <div
+          class="kategorije-container__slano--img kategorije-container__cover"
+        >
+          <img
+            src="images/kategorije/slano_cover.jpg"
+            class="kategorije-container__cover--front"
+            alt=""
+          />
+          <div class="kategorije-container__cover--back">
+            <a href="slatko.html" class="btn">Pogledaj sve proizvode</a>
+          </div>
+        </div>
+
+        <div class="kategorije-container__slano--info">
+          <h1>Ili ste za nešto konkretnije...</h1>
+          <p>
+            Doručak, Ručak, desert... Neka Vas ne zbuni “Slastičarna“ u nazivu.
+            U našoj ponudi možete pronaći sve što Vas zanima. Dođite i nećete
+            požaliti, vjerujte nam!
+          </p>
+          <div class="slano--info__gallery kategorije--info__gallery">
+            <img src="images/kategorije/slano_popular_1.jpg" alt="" />
+            <img src="images/kategorije/slano_popular_2.jpg" alt="" />
+            <img src="images/kategorije/slano_popular_3.jpg" alt="" />
+            <img src="images/kategorije/slano_popular_4.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="kategorije-container__pice">
+        <div
+          class="kategorije-container__pice--img kategorije-container__cover"
+        >
+          <img
+            src="images/kategorije/pice_cover.jpg"
+            class="kategorije-container__cover--front"
+            alt=""
+          />
+          <div class="kategorije-container__cover--back">
+            <a href="slatko.html" class="btn">Pogledaj sve proizvode</a>
+          </div>
+        </div>
+
+        <div class="kategorije-container__pice--info">
+          <h1>Uz fino domaće piće...</h1>
+          <p>
+            Domaće, ravno iz našeg vrta! Bez umjetnih dodataka. Probajte i
+            nećete se razočarati.
+          </p>
+          <div class="pice--info__gallery kategorije--info__gallery">
+            <img src="images/kategorije/pice_popular_1.jpg" alt="" />
+            <img src="images/kategorije/pice_popular_2.jpg" alt="" />
+            <img src="images/kategorije/pice_popular_3.jpg" alt="" />
+            <img src="images/kategorije/pice_popular_4.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Instagram -->
+    <hr />
+    <section class="instagram">
+      <h2>Instagram</h2>
+      <div class="instagram__container">
+        <img src="images/naslovna/popular_product_2.jpg" alt="" />
+        <img src="images/naslovna/popular_product_3.jpg" alt="" />
+        <img src="images/naslovna/popular_product_6.jpg" alt="" />
+        <img src="images/naslovna/popular_product_1.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-info">
+        <div class="footer-info__logo">
+          <img src="images/logo.png" alt="Meet Mia logo" />
+        </div>
+        <div class="footer-info__brand">
+          <h2>Meet Mia</h2>
+          <a href="index.html">Naslovna</a>
+          <a href="kategorije.html">Proizvodi</a>
+          <a href="#">O nama</a>
+          <a href="#">Blog</a>
+          <a href="#">Profil</a>
+          <a href="#">Košarica</a>
+        </div>
+        <div class="footer-info__terms">
+          <h2>Uvjeti i privatnost</h2>
+          <a href="#">Uvjeti korištenja</a>
+          <a href="#">Privatnost</a>
+          <a href="#">Karijere</a>
+          <a href="#">Dostava</a>
+        </div>
+        <div class="footer-info__contact">
+          <h2>Kontakt</h2>
+          <a href="kontakt.html">meetmia@mail.com</a>
+          <a href="kontakt.html">01 / 2816 451</a>
+          <a href="kontakt.html">Heinzelova 33, 10000 Zagreb</a>
+          <div class="footer-info__contact--socials">
+            <a href="kontakt.html"><i class="fab fa-instagram"></i></a>
+            <a href="kontakt.html"><i class="fab fa-facebook-f"></i></a>
+            <a href="kontakt.html"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="footer-info__contact--payments">
+            <a href="kontakt.html"><i class="fab fa-cc-visa"></i></a>
+            <a href="kontakt.html"><i class="fab fa-cc-mastercard"></i></a>
+            <a href="kontakt.html"><i class="fab fa-cc-diners-club"></i></a>
+            <a href="kontakt.html"><i class="fab fa-cc-amex"></i></a>
+            <a href="kontakt.html"><i class="fab fa-cc-paypal"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-copyright">
+        <p>Meet Mia | &copy; Copyright. All right reserved.</p>
+        <p>site by <em>Lux Dule</em></p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
