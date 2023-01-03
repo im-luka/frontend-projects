@@ -1,0 +1,45 @@
+.fylo__team-item {
+  width: 30rem;
+  background: var(--clr-bg-testimonials);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2rem;
+  position: relative;
+}
+
+.fylo__team-item--first,
+.fylo__team-item--reset {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -20px;
+  left: -20px;
+}
+
+.fylo__team-item--first {
+  background-image: url("../../assets/bg-quotes.png");
+  background-repeat: no-repeat;
+}
+
+.fylo__team-item_author {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fylo__team-item_author img {
+  width: 3rem;
+  border-radius: 100%;
+  border: 1px solid var(--clr-white);
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 1105px) {
+  .fylo__team-item {
+    width: 30rem;
+  }
+}
