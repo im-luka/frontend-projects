@@ -2,11 +2,13 @@
 
 ## 🪐 Space Travel | Everywhere
 
-Responsive design for Space Travel - Tourism website.
+*Responsive design for Space Travel - Tourism website.*
 
 > [See website](https://space-travel-everywhere.web.app/)
+<hr />
 
 ### Stack used: HTML, CSS, Javascript
+<hr />
 
 #### *Home Page*
 ![space01](https://user-images.githubusercontent.com/46372998/178018326-fdf22999-62e2-4ea9-8b9c-6260ca45e04a.png)
@@ -23,11 +25,13 @@ Responsive design for Space Travel - Tourism website.
 
 ## 🎭 GPT3 AI
 
-Responsive design for the GPT3 OpenAI website.
+*Responsive design for the GPT3 OpenAI website.*
 
 > [See website](https://gpt3-ai-dev.web.app/)
+<hr />
 
 ### Stack used: HTML, CSS, React
+<hr />
 
 #### *Home Page*
 ![gpt3](https://user-images.githubusercontent.com/46372998/178019413-a9498868-9c6e-421b-9a2e-9b6819fb7f63.png)
@@ -35,11 +39,13 @@ Responsive design for the GPT3 OpenAI website.
 
 ## 🔐 Fylo | Secure Files
 
-Responsive design for Fylo Landing Page - file security website.
+*Responsive design for Fylo Landing Page - file security website.*
 
 > [See website](https://fylo-files.web.app/)
+<hr />
 
 ### Stack used: HTML, CSS, React
+<hr />
 
 #### *Home Page*
 ![fylo](https://user-images.githubusercontent.com/46372998/178041579-7b6ae292-fea1-42e2-a592-a7c3cccf690c.png)
@@ -47,11 +53,13 @@ Responsive design for Fylo Landing Page - file security website.
 
 ## 🖥️ Alternative Portfolio Design
 
-Responsive design for alternative portfolio website
+*Responsive design for alternative portfolio website.*
 
 > [See website](https://alternate-portfolio.web.app/)
+<hr />
 
 ### Stack used: HTML, CSS, Javascript
+<hr />
 
 #### *Home Page*
 ![alt-port-01](https://user-images.githubusercontent.com/46372998/210431263-c08a476a-c4e9-4c5c-b34d-df981f371357.png)
@@ -62,11 +70,13 @@ Responsive design for alternative portfolio website
 
 ## 🍰 Meet Mia Cakes
 
-Responsive design for Meet Mia cake and brunch bar
+*Responsive design for Meet Mia cake and brunch bar.*
 
 > [See website](https://meet-mia-cakes.web.app/)
+<hr />
 
 ### Stack used: HTML, CSS, Javascript
+<hr />
 
 #### *Home Page*
 ![mia01](https://user-images.githubusercontent.com/46372998/178002592-e8ed89ff-ae44-4358-8ca4-601af7090508.png)
