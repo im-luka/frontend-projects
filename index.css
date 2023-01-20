@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background: url("https://media0.giphy.com/media/oqzm3cZRoMdQjtkREL/giphy.gif?cid=ecf05e47nsim1pcd06gosee6i4rm8uvoty3clu6u91scc4x2&rid=giphy.gif&ct=g");
+  background-position: center 33%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  color: rgb(203, 203, 203);
+  font-family: "Covered By Your Grace", cursive;
+}
+
+h1 {
+  font-size: 7rem;
+  text-shadow: 7px 7px 5px rgb(157, 18, 164);
+  text-align: center;
+}
+h2 {
+  font-size: 2rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.main {
+  z-index: 1;
+  max-width: 1280px;
+  padding: 2rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.title {
+  transition: all 1s ease-in-out;
+}
+.title:hover {
+  color: rgb(245, 0, 0);
+  transform: translateY(-10px);
+}
+
+.projects-container {
+  padding: 3rem;
+  display: flex;
+  gap: 2rem;
+  overflow-x: scroll;
+}
+
+.project {
+  position: relative;
+  min-width: 225px;
+  height: 350px;
+  overflow: hidden;
+  box-shadow: -5px 5px 20px 7px black;
+  transform: skewY(10deg) rotateY(20deg);
+  transition: all 0.5s ease-in-out;
+}
+
+.project__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.project:hover {
+  transform: skewY(0deg) rotateY(0deg);
+  border: 1px solid yellow;
+}
+.project:hover .project__content {
+  opacity: 0.9;
+}
