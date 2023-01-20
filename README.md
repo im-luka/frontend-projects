@@ -1,5 +1,20 @@
 # 👨🏼‍🎨 Frontend Projects
 
+## 📚 Home | List of Projects
+
+_List & links of all projects in this repo._
+
+> [Live Demo]()
+---
+
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+
+---
+
+![home_projects](https://user-images.githubusercontent.com/46372998/213786346-4b877de0-942a-4a7e-807a-e8b26845168a.png)
+
+
 ## 🪐 Space Travel | Everywhere
 
 *Responsive design for Space Travel - Tourism website.*
