@@ -20,7 +20,7 @@ _List & links of all projects in this repo._
 
 *Responsive design for Space Travel - Tourism website.*
 
-> [See website](https://space-travel-everywhere.web.app/)
+> [Live Demo](https://space-travel-everywhere.web.app/)
 <hr />
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -46,7 +46,7 @@ _List & links of all projects in this repo._
 
 *Responsive design for the GPT3 OpenAI website.*
 
-> [See website](https://gpt3-ai-dev.web.app/)
+> [Live Demo](https://gpt3-ai-dev.web.app/)
 <hr />
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
@@ -63,7 +63,7 @@ _List & links of all projects in this repo._
 
 *Responsive design for Fylo Landing Page - file security website.*
 
-> [See website](https://fylo-files.web.app/)
+> [Live Demo](https://fylo-files.web.app/)
 <hr />
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
@@ -80,7 +80,7 @@ _List & links of all projects in this repo._
 
 *Responsive design for alternative portfolio website.*
 
-> [See website](https://alternate-portfolio.web.app/)
+> [Live Demo](https://alternate-portfolio.web.app/)
 <hr />
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -100,7 +100,7 @@ _List & links of all projects in this repo._
 
 *Responsive design for Meet Mia cake and brunch bar.*
 
-> [See website](https://meet-mia-cakes.web.app/)
+> [Live Demo](https://meet-mia-cakes.web.app/)
 <hr />
 
 
