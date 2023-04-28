@@ -124,5 +124,3 @@ _List & links of all projects in this repo._
 
 #### *Contact Page* - (empty blank space should display the address in the form of Google Maps)
 ![mia05](https://user-images.githubusercontent.com/46372998/178002820-7a770d71-aa8b-457c-9110-7c60ff5825b4.png)
-
-
